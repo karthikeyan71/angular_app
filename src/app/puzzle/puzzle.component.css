@@ -1,0 +1,43 @@
+
+.puzzle_container
+{
+  margin: 0 auto;
+  height: 300px;
+  width: 300px;
+  padding:5px;
+  background-color: #c5c5c5;
+  border: 1px solid #222;
+  margin: 0 auto;
+}
+
+.puzzle_container li
+{
+  display: inline-block;
+  height: 31.8%;
+  width: 32.3%;
+  border: 1px solid #222;
+  background-color: #f5f5f5;
+  position: relative;
+  margin:2px 0px;
+  cursor: pointer;
+}
+
+.puzzle_container li span
+{
+  position: relative;
+  left: 45%;
+  top: 35%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.nothing
+{
+  color:#f5f5f5;
+}
+
+.success_msg1
+{
+  color: green;
+  text-align: center;
+  display: none;
+}
